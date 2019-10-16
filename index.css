@@ -1,0 +1,36 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Quicksand', sans-serif;
+}
+.content{
+    width:50%;
+    margin:0 auto;
+}
+.message{
+    border:1px solid;
+    border-width:1px 50px 1px 1px;
+    border-radius:5px;
+    margin:40px 0px;
+    padding:0px 15px;
+    background-color:white;
+}
+.message a{
+    text-decoration: none;
+    color:#2e72c7;
+}
+.message-error{
+    border-color:red;
+}
+.message-success{
+    border-color:green;
+}
+.content button{
+    float:right;
+    background-color:#1f72c4;
+    border-color:#1f72c4;
+    border-radius:5px;
+    color:white;
+    padding:10px;
+    font-weight:bold;
+
+}
